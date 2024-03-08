@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+#container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select, textarea, input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.goal {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btnComplete, .btnDelete {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 20px; 
+  float: right;
+}
+.complete-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.btnComplete {
+  padding: 8px 16px;
+  background-color: #06c71695;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 20px; 
+  float: right;
+}
+
+
+
+
+
+.btnDelete {
+  background-color: #dc3545;
+}
+
+
+
+.signout {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signout a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signout-container {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+a.signout-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a.signout-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
